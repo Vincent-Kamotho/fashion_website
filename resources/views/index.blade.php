@@ -64,6 +64,16 @@
         <h2 class="section__title">On Display</h2>
         <div class="sale__grid">
             <div class="sale__card">
+                <img src="{{asset('assets/fashion/images/sale-3.png')}}" alt="sale" />
+                <div class="sale__content">
+                    <p class="sale__subtitle">JACKETS</p>
+                    <h4 class="sale__title">sale <span>20%</span> off</h4>
+                    <p class="sale__subtitle">- DON'T MISS -</p>
+
+                </div>
+            </div>
+            
+            <div class="sale__card">
                 <img src="{{asset('assets/fashion/images/sale-1.webp')}}" alt="sale" />
                 <div class="sale__content">
                     <p class="sale__subtitle">MAN OUTERWEAR</p>
@@ -81,15 +91,7 @@
 
                 </div>
             </div>
-            <div class="sale__card">
-                <img src="{{asset('assets/fashion/images/sale-3.png')}}" alt="sale" />
-                <div class="sale__content">
-                    <p class="sale__subtitle">JACKETS</p>
-                    <h4 class="sale__title">sale <span>20%</span> off</h4>
-                    <p class="sale__subtitle">- DON'T MISS -</p>
-
-                </div>
-            </div>
+            
         </div>
     </section>
 
