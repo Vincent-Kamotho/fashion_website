@@ -20,15 +20,17 @@
             <li class="link"><a href="#">HOME</a></li>
             <li class="link"><a href="#on-display">BLOG</a></li>
             <li class="link"><a href="#shop">SHOP</a></li>
-            <li class="link"><a href="{{ route('logout') }}" onclick="event.preventDefault();
+            <li class="link"><a href="{{route('login')}}">LOGIN</a></li>
+            <li class="link"><a href="{{route('register')}}">SIGNUP</a></li>
+            {{-- <li class="link"><a href="{{ route('logout') }}" onclick="event.preventDefault();
                 document.getElementById('logout-form').submit();">LOGOUT</a>
             </li>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                 @csrf
-            </form>
-            @if(Auth::user()->user_roles === 'Admin')
+            </form> --}}
+            
             <li class="link"><a href="{{route('stock')}}" class="btn btn-info">Manage</a></li>
-            @endif
+            
         </ul>
         <div class="nav__icons">
             <span><i class="ri-shield-user-line"></i></span>
