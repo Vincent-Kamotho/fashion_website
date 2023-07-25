@@ -187,19 +187,16 @@
     <footer class="section__container footer__container">
         <div class="footer__col">
             <h4 class="footer__heading">CONTACT INFO</h4>
-            <p>
-                <i class="ri-map-pin-2-fill"></i> 123, Embakasi Pipeline, Nairobi
-            </p>
-            <p><i class="ri-mail-fill"></i> support@vincent.com</p>
-            <p><i class="ri-phone-fill"></i> +254 708 683 439</p>
+            <p><i class="ri-map-pin-2-fill"></i> <a href="https://www.google.com/maps/search/Pipeline,+Embakasi,+Nairobi,+Kenya" target="_blank">Embakasi Pipeline, Nairobi</a></p>
+            <p><i class="ri-mail-fill"></i> <a href="mailto:vincentwambuguvw97@gmail.com">vinwam@gmail.com</a></p>
+            <p><i class="ri-phone-fill"></i> <a href="tel:+254708683439">0708683439</a></p>
         </div>
         <div class="footer__col" style="margin-left:500px;">
             <h4 class="footer__heading">COMPANY</h4>
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Work With Us</p>
-            <p>Our Blog</p>
-            <p>Terms & Conditions</p>
+            <p><a href="{{route('view-page')}}">Home</a></p>
+            <p><a href="#on-display">About Us</a></p>
+            <p><a href="mailto:vincentwambuguvw97@gmail.com">Contact Us</a></p>
+            
         </div>
 
     </footer>
