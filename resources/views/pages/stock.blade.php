@@ -37,8 +37,6 @@
                     <h2 class="fs-2 m-0">Admin</h2>
                 </div>
 
-
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
@@ -46,10 +44,10 @@
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fas fa-user me-2"></i>
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            {{-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{{url('/')}}">Go to Sytem</a></li>
 
-                            </ul>
+                            </ul> --}}
                         </li>
                     </ul>
                 </div>
@@ -67,6 +65,7 @@
                         @endif
                         <div style="text-align: right;">
                             <a href="{{route('manage-stock')}}" class="btn btn-secondary">Add Stock</a>
+                            <a href="{{route('view-page')}}" class="btn btn-info">Go to System</a>
                         </div>
 
                         <thead>

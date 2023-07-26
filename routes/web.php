@@ -21,7 +21,7 @@ Route::get('/', [App\Http\Controllers\StockController::class, 'index'])->name('v
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/stock', [App\Http\Controllers\StockController::class, 'view'])->name('stock');
+Route::get('admin/stock', [App\Http\Controllers\StockController::class, 'view'])->name('stock');
 Route::get('manage-stock', [App\Http\Controllers\StockController::class, 'create'])->name('manage-stock');
 Route::post('save-stock', [App\Http\Controllers\StockController::class, 'store'])->name('save-stock');
 Route::get('stock/edit/{id}', [App\Http\Controllers\StockController::class,'edit']);
